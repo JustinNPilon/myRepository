@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Main Page</title>
+</head>
+	<body>
+		<form method="get" action="bouncer.php">
+			<table border="5" style="background-color:cyan">
+				<th colspan="3">NAME and PASSWORD</th>
+				<tr>
+					<td>
+						First Name:
+					</td>
+					<td>
+						<input type="text" name="firstname" value="Enter Name"/>
+					</td>
+					<td>
+						<input type="submit" value="Submit"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Passward">Password:</label>
+					</td>
+					<td>
+						<input type="password" name="password" id="Password"/>
+					</td>
+					<td>
+						<input type="reset" value="Reset"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<label for="Spam">Send me spam:</label>
+						<input type="checkbox" name="spam" id="spam" checked="checked"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="gender">Male:</label>
+					</td>
+					<td colspan="2">
+						<input type="radio" name="gender" id="male" value="m"/><br/>
+					</td>
+				<tr>
+				</tr>
+					<td>
+						<label for="gender">Female:</label>
+					</td>
+					<td colspan="2">
+						<input type="radio" name="gender" id="femail" value="f"/>
+					</td>	
+				</tr>
+				<tr>
+					<td>
+						<label for="age">Age:</label>
+					</td>
+					<td colspan="2">
+						<input type="number" name="age" id="age" min="18" max="80"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<label for="formNum">Hidden:</label>
+						<input type="hidden" name="formNum" id="formNum" value="form1"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<label for="dest">Favorite Vacation Destination</label>
+						<select id="dest" name="dest">
+							<option value="HW">Hawaii</option>
+							<option value="SF">SanFran</option>
+							<option value="RD">RedDeer</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<textarea name="about" id="about" rows="4" cols="40">Enter your life history here.
+						</textarea>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

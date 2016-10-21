@@ -1,0 +1,13 @@
+p {
+	background-color: violet;
+}
+
+.navs { /* It is important to realize that navs is a class because it has the . in it*/
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size: 26pt;
+}
+
+#myol { /* give an ordred list or somethign an id = myol, remember that the # symbol means that it will apply to one specific item. */
+	font-style: italic;
+}

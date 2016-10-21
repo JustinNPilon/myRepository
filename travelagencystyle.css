@@ -1,0 +1,61 @@
+/*
+This is the CSS file
+Student Name: Justin Pilon
+Student #: 000452052
+*/
+
+/* This is a hash tag radial gradient used as a background to the title of each page */
+#grad {
+	background: -webkit-radial-gradient(cyan 10%, pink 30%, grey 60%);
+}
+
+/* This is a linear gradient used as the bacground of the animated logo */
+.gradpurple {
+	background: -webkit-linear-gradient(grey, purple, black);
+}
+
+/* This is a linear gradient used as the bacground of the animated logo */
+.gradblue {
+	background: -webkit-linear-gradient(grey, blue, black);
+}
+
+/* This class is used to decorate the text of the title for each page */
+.Text1 {
+	top:60px;
+	left:220px;
+	position:absolute;
+	font-size: 60px;
+	color: purple;
+	-webkit-text-stroke-width: 1.8px;
+	-webkit-text-stroke-color: black;
+	font-family: "Courier NeW";
+	font-weight: bold;
+}
+
+/* This class is used to bold other text in courier new */
+.Text2 {
+	font-family: "Courier New";
+	font-weight: bold;
+}
+
+/* This is used to style the background of each page */
+body {
+	background-color:grey;
+}
+
+/* This is used to sytle the tables in each page */
+.myTable1 { 
+	background-color: cyan;
+	font-family: "Courier New";
+	font-weight: bold;
+}
+
+/* This is used to change the logo in the small animation hyperlink */
+#img1:hover {
+	content:url(myElephant1.gif);
+}
+
+/* This is used to change the logo in the small animation hyperlink */
+#img2:hover {
+	content:url(myElephant2.gif);
+}

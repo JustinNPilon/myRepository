@@ -1,0 +1,129 @@
+<!DOCTYPE html> <!-- This means we are using html 5 -->
+<html>
+<head>
+	<title>Hello</title>
+
+	<script>
+	// This is a comment in Java Script!
+	
+	/*
+	This is a multiline comment in Java Script!
+	*/
+	function myFunction() {
+		alert("I am a happy Spike!!!");
+	}
+	
+	function hiFunction() {
+		alert("Welcome to Justins amazing Site!!!")
+	}
+	
+	function headingFunction() {
+	appendString="";
+	for(var i = 1; i <= 6; i++) {
+	appendString += "<h"+ i +"> heading "+ i +" </h"+ i +"><br/>";
+	}
+	return appendString;
+	}
+	//document.write(appendString)
+	
+	function coolTable() {
+	document.write("<table>");
+	for(var i = 1; i <= 100; i++) {
+		document.write("<tr>");
+		for (j = 1; j <= 100; j++) {
+			document.write("<td>");
+			document.write("<img style='width:20px; height:20px' src='Horton.jpg'/>");
+			document.write("</td>");
+		}
+		document.write("</tr>");
+	}
+	document.write("</table>");
+	}
+	
+	</script>
+
+	<style>
+		body {
+			background-color: lightgreen;
+		}
+			
+		.rockAndRoll {
+			color: green;
+			-webkit-text-stroke-width: 1.5px;
+			-webkit-text-stroke-color: red;
+			font-family: "Courier NeW", Times, serif;
+			font-size: 250%;
+			font-weight: bold;
+		}
+		
+		#grad1 {
+			background: -webkit-linear-gradient(#3c50bd, pink, white, cyan);
+		}
+	</style>
+	
+</head>
+	<body onload="hiFunction()">
+	
+		<p class=rockAndRoll >Hello World!</p>
+		<center>
+			<a target="_blank" href="http://network-tools.com/">
+				<img border="30px" src="data:image/jpeg;base64,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"/>
+			</a>
+				
+			<hr></hr> <!-- Horrizontal Rule -->
+				
+			<button onclick="myFunction()">
+				What does Spike Say?
+			</button>
+		</center>
+		
+		
+		<table border="5">
+			<tr>
+				<th>Name</th>
+				<th>FavoriteColor</th>
+				<th>Copyright Symbol</th>
+			</tr>
+			<tr>
+				<td>Justin</td>
+				<td>Black</td>
+				<td>&copy;</td>
+			</tr>
+			<tr>
+				<td>Abel</td>
+				<td>Blue</td>
+				<td>&#169;</td>
+			</tr>
+		</table>
+		
+		<div id="grad1">
+		
+		<p class="rockAndRoll">
+		The first thing I should say is that you should go into the "Command prompt" and type in "ipconfig".  This This is my friend Spike.  Now I want to go to the <br/><br/>
+		next line.
+		</p>
+		
+		<p class="rockAndRoll" align="right">This text is to the right.  Remember to put quotes around the attribute value.</p>
+		
+		</div>
+		
+		<ol>
+			<li>Yum</li>
+			<li>Mmm</li>
+			<li>Ooo</li>
+		</ol>
+		
+		<ul>
+			<li>Blue</li>
+			<li>Goo</li>
+			<li>Who!</li>
+		</ul>
+		
+		<script>
+			document.write(headingFunction());
+			
+			coolTable();
+		</script>
+		
+	</body>
+</html>
